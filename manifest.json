@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Wisp Helper",
+    "description": "This web extension is a helper for Wisp to make it easier and efficient to use.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "https://www.wisp.blog/app/*"
+            ]
+        }
+    ]
+  }
